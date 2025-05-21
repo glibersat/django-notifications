@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sessions',
     'django.contrib.sites',
+    'notifications.tests.test_models',
     'notifications.tests',
     'notifications',
 ]
