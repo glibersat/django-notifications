@@ -12,6 +12,6 @@ class Migration(migrations.Migration):
         migrations.RenameIndex(
             model_name="notification",
             new_name="notificatio_recipie_8bedf2_idx",
-            old_fields=("recipient", "unread"),
+            old_fields=("site", "recipient", "unread"),
         ),
     ]
